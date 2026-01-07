@@ -10,15 +10,16 @@
   </head>
   <body>
     <div id="app">
-      <!-- <p v-if="books.length === 0">目前没有任何书籍</p>
+      <p v-if="books.length === 0">目前没有任何书籍</p>
       <h2 v-else-if="books.length === 1">{{ books[0] }}</h2>
       <ul v-else>
         <li v-for="book in books">{{ book }}</li>
-      </ul> -->
-      <p v-show="books.length === 0">目前没有任何书籍</p>
+      </ul>
+      <!-- v-show : 使用display隱藏元素 -->
+      <!-- <p v-show="books.length === 0">目前没有任何书籍</p>
       <ul v-show="books.length > 0">
         <li v-for="book in books">{{ book }}</li>
-      </ul>
+      </ul> -->
     </div>
     <script src="index.js"></script>
   </body>
