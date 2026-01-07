@@ -42,4 +42,4 @@ cd 10-vue-router/12-route-view-alias
 yarn dev
 ```
 
-如果要重装 `node_modules` 依赖，直接在源码**根目录**下运行 `yarn install` 即可（不需进入到具体的示例目录）。
+如果要重装 `node_modules` 依赖，直接在源码**根目录**下运行 `yarn install` 即可（不需进入到具体的示例目录）。# vue-3.x-guide-examples
