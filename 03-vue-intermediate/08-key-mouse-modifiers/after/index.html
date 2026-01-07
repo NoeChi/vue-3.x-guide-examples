@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="lib/vue.global.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>键盘、鼠标修饰符</title>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        <ul @mousedown.right="comments.reverse()">
+          <li v-for="content in comments">{{ content }}</li>
+        </ul>
+        <input
+          type="text"
+          v-model="comment"
+          @keyup.ctrl.enter.exact="addComment"
+        />
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

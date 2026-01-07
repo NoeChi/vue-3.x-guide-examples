@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <script src="lib/vue.global.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>其它表单控件处理</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="form">
+        <label for="username">用户名：</label>
+        <input id="username" type="text" />
+        <label for="gender">性别：</label>
+        <div id="gender" class="radio-group">
+          <input name="gender" type="radio" value="male" /><span
+            >男</span
+          >
+          <input name="gender" type="radio" value="female" /><span
+            >女</span
+          >
+        </div>
+        <label for="interest">兴趣：</label>
+        <div id="interest" class="checkbox-group">
+          <input
+            type="checkbox"
+            name="interests"
+            value="frontend"
+          /><span>前端</span>
+          <input
+            type="checkbox"
+            name="interests"
+            value="backend"
+          /><span>后端</span>
+          <input
+            type="checkbox"
+            name="interests"
+            value="fullstack"
+          /><span>全栈</span>
+        </div>
+        <label for="occupation">职业：</label>
+        <select name="occupation" id="occupation">
+          <option value="frontend">前端工程师</option>
+          <option value="backend">后端工程师</option>
+          <option value="fullstack">全栈工程师</option>
+        </select>
+        <label for="intro">自我介绍：</label>
+        <textarea id="intro" rows="10"></textarea>
+      </div>
+      <div class="result">
+        <ul>
+          <li>用户名：</li>
+          <li>性别：</li>
+          <li>兴趣：</li>
+          <li>职业：</li>
+          <li>自我介绍：</li>
+        </ul>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

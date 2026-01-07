@@ -1,0 +1,23 @@
+{
+  "name": "vue-complete-guide-examples",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "01-quick-start/**",
+    "02-vue-basics/**",
+    "03-vue-intermediate/**",
+    "04-vue-core/**",
+    "05-component-in-depth/**",
+    "06-composition-api/**",
+    "07-vue-under-the-hood/**",
+    "08-animations-and-transitions/**",
+    "09-vue-dev-build-deploy/**",
+    "10-vue-router/**",
+    "11-vuex/**",
+    "13-typescript/**",
+    "14-vue-typescript/**",
+    "15-pinia/**",
+    "16-vue-http-request/**"
+  ]
+}
