@@ -15,8 +15,10 @@
     <div id="app">
       <ul>
         <!-- 1. computed 计算属性 -->
+        <!-- computed會有缓存，只有data变化时才重新计算 -->
         <li v-for="vueBlog in vueBlogs">{{ vueBlog }}</li>
         <!-- 2. Methods 方法 -->
+        <!-- methods 每次调用都会执行函数 -->
         <!-- <li v-for="vueBlog in getVueBlogs(1)">{{ vueBlog }}</li> -->
       </ul>
       <button @click="counter += 1">计数器 {{ counter }}</button>
