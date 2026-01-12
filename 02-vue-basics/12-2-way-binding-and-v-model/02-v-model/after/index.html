@@ -16,6 +16,8 @@
       <div>
         <div class="input-field">
           <label for="username">用户名：</label>
+          <!-- v-model实现双向绑定 -->
+          <!-- v-model是语法糖，等价于:value和@input -->
           <input id="username" type="text" v-model="username" />
           <button @click="resetUsername">重置</button>
         </div>

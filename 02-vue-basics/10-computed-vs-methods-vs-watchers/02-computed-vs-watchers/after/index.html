@@ -17,15 +17,15 @@
         <li v-for="blog in blogPosts">{{ blog }}</li>
       </ul>
       <h1>共（{{ count }}）篇博客</h1>
-      <button
+      <!-- <button
         @click="blogPosts.push('Vue 3.x 计算属性和监听器的区别')"
       >
         添加一篇博客
-      </button>
-      <!-- <button @click="newBlog = 'Vue 3.x 计算属性和监听器的区别'">
-        添加一篇博客
       </button> -->
-      <!-- {{ newBlog }} -->
+      <button @click="newBlog = 'Vue 3.x 计算属性和监听器的区别'">
+        添加一篇博客
+      </button>
+      {{ newBlog }}
     </div>
     <script src="index.js"></script>
   </body>

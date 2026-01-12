@@ -8,11 +8,12 @@ const app = Vue.createApp({
         "React 18 新特性介绍",
         "JavaScript 基础语法概览",
       ],
-      // newBlog: "",
-      // newBlogPost: "", // 使用 computed 的方式
+      newBlog: "",
+      newBlogPost: "", // 使用 computed 的方式
       // count: 4, // 使用 watch 的方式
     };
   },
+  // 同步處理data中的屬性
   computed: {
     count() {
       return this.blogPosts.length;
@@ -29,8 +30,11 @@ const app = Vue.createApp({
       },
     },
   },
+  // 異步處理data中的屬性
   watch: {
+    // // 和data中的属性对应
     // blogPosts: {
+    //   // handler 回调函数
     //   handler(newVal) {
     //     this.count = newVal.length;
     //   },
