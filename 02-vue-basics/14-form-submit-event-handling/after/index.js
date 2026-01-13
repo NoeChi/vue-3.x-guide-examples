@@ -9,9 +9,11 @@ const app = Vue.createApp({
       intro: "",
     };
   },
+  // 处理表单提交事件 
   methods: {
     handleSubmit(e) {
       // e.preventDefault();  // 设置了修饰符就不需要了
+      // form @submit.prevent="handleSubmit"
       console.log(
         this.username,
         this.gender,

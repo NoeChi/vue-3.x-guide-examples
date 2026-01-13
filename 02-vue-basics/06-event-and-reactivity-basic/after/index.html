@@ -15,6 +15,7 @@
         <p v-show="showAnswer" class="answer">
           答：Vue 是一套用于构建用户界面的渐进式框架。
         </p>
+        <!--使用@綁定事件監聽 -->
         <button @click="showAnswer = !showAnswer">
           {{ showAnswer ? "隐藏" : "显示" }}答案
         </button>

@@ -11,8 +11,10 @@
   <body>
     <div id="app">
       <div>
+        <!-- v-once 指令，渲染一次 -->
         <p v-once>list 初始长度： {{ list.length }}</p>
         <p>list 新长度： {{ list.length }}</p>
+        <p>list： {{ list }}</p>
         <button @click="list.push(list.length + 1)">添加元素</button>
       </div>
     </div>

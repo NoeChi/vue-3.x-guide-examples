@@ -18,6 +18,7 @@
         <input id="username" type="text" v-model="username" />
         <label for="gender">性别：</label>
         <div id="gender" class="radio-group">
+          <!-- radio是單選，所以name要一樣 -->
           <input
             name="gender"
             type="radio"
@@ -33,6 +34,7 @@
         </div>
         <label for="interest">兴趣：</label>
         <div id="interest" class="checkbox-group">
+          <!-- checkbox是多選，所以name可以一樣也可以不一樣 -->
           <input
             type="checkbox"
             name="interests"
