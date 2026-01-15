@@ -14,6 +14,9 @@
   <body>
     <div id="app">
       <div>
+        <!-- 下方兩個意思一樣 -->
+        <!-- <input type="text" :placeholder="value" @change="handleChange" /> -->
+        <!-- attr, value, event都是data() -->
         <input type="text" :[attr]="value" @[event]="handleChange" />
       </div>
     </div>

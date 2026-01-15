@@ -19,7 +19,7 @@
           <li @click="handleLiClick">1</li>
           <li>2</li>
         </ul>  -->
-        <!-- stop-->
+        <!-- stop : 不會運行事件冒泡(由內而外)-->
         <ul @click="handleUlClick">
           <li @click.stop="handleLiClick">1</li>
           <li>2</li>

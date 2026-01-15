@@ -12,7 +12,9 @@
     <div id="app">
       <div>
         <ul>
+          <!-- 只會看到屬性值value -->
           <!-- <li v-for="value in blogPost">{{value}}</li> -->
+          <!-- 順序是固定的屬性值value、屬性名name、索引index -->
           <li v-for="(value, name, index) in blogPost">
             {{index}}. {{name}} - {{value}}
           </li>
@@ -21,6 +23,7 @@
           <li v-for="todo in todos" :key="todo.id">{{ todo.content }}</li>
         </ul>
         <ul>
+          <!-- 使用key屬性，data順序改變的時候不會出錯 -->
           <li v-for="n in 5" :key="n">{{ n }}</li>
         </ul>
       </div>
