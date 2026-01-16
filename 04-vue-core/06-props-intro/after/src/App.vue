@@ -10,6 +10,7 @@ export default {
 <template>
   <main>
     <div>
+      <!-- 因為子組件有props，所以呼叫的時候要給予參數 -->
       <MessageItem sender="张三" msg="你好呀!" time="19:38" />
       <MessageItem sender="李四" msg="Hi!" time="19:40" />
       <MessageItem sender="王五" msg="最近怎么样？" time="19:42" />

@@ -1,13 +1,19 @@
 <template>
   <main>
     <div>
+      <!-- 如果不用v-bind 會全部都是string -->
+      <!-- 使用v-bind後資料型態才會改變 -->
       <!-- <PropTypes
         :num="10"
         :bool="true"
         :obj="{ name: '张三' }"
         :array="[1, 2, 3, 4]"
       /> -->
+      <!-- name不用使用v-bind, age要使用v-bind -->
+      <!-- age < 0 在console會報錯 -->
       <TypeValidation name="张三" :age="-20" />
+      <!-- name如果使用v-bind，張三要加上單引號 -->
+      <!-- <TypeValidation :name="'张三'" :age="-20" /> -->
     </div>
   </main>
 </template>

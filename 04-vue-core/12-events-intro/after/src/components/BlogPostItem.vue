@@ -1,12 +1,14 @@
 <template>
   <div>
     <a :href="link">{{ title }}</a>
+    <!-- 自定義事件，傳出事件名稱和參數 -->
     <button @click="$emit('deletePost', id)">删除</button>
   </div>
 </template>
 <script>
 export default {
   props: ["id", "link", "title"],
+  // 自定義事件名稱
   emits: ["deletePost"],
 };
 </script>

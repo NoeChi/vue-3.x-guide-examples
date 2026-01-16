@@ -1,6 +1,8 @@
 <template>
   <main>
     <div>
+      <!-- 因為key父子命名不一樣，所以要特別指定key，其他參數名稱一樣，直接用v-bind -->
+      <!-- class指定樣式 -->
       <BlogPostItem
         v-for="post in posts"
         :key="post.id"

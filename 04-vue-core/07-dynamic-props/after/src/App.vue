@@ -8,6 +8,7 @@
         :msg="message.msg"
         :time="message.time"
       />
+      <!-- 如果對象中的屬性名稱和props名稱相同，可以使用v-bind -->
       <!-- <MessageItem
         v-for="message in messages"
         :key="message.id"

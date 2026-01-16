@@ -22,4 +22,5 @@ const app = Vue.createApp({
     },
   },
 });
+// 挂载应用并获取 Vue 实例
 const vm = app.mount("#app");

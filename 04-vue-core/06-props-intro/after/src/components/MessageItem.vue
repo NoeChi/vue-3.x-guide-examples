@@ -7,6 +7,8 @@
 </template>
 <script>
 export default {
+  // 只能由父組件傳遞給子組件
+  // 子組件不能修改props的值
   props: ["sender", "msg", "time"],
   mounted() {
     console.log(this.sender);

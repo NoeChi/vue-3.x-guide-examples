@@ -2,6 +2,7 @@
   <main>
     <div>
       <BaseCard title="卡片容器">
+        <!-- 改寫slot佔據空間 -->
         <p>这是卡片的内容</p>
         <p>可以插入任何 HTML 模板</p>
         <a href="#">这是一个超链接</a>

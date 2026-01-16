@@ -2,10 +2,11 @@
   <div class="card">
     <div class="title">{{ title }}</div>
     <div class="content">
-      <slot></slot>
-      <!-- <slot>
+      <!-- 使用slot佔據空間 -->
+      <!-- <slot></slot> -->
+      <slot>
         <p>默认卡片内容</p>
-      </slot> -->
+      </slot>
     </div>
   </div>
 </template>
