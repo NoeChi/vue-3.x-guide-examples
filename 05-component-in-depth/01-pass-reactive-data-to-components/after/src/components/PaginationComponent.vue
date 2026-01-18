@@ -11,6 +11,7 @@ export default {
   props: ["totalPage", "defaultCurrentPage"],
   data() {
     return {
+      // 子組件中重新建立一個新屬性 currentPage，這樣才可以修改，不然子組件不能修改父組件的資料
       currentPage: this.defaultCurrentPage,
     };
   },

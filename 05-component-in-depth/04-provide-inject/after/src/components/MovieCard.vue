@@ -18,9 +18,12 @@ export default {
       },
     };
   },
+  // provide使用寫死的值
   // provide: {
   //   title: "测试电影",
   // },
+  
+  // provide使用函式，回傳動態值綁定data
   provide() {
     return {
       title: this.movie.title,

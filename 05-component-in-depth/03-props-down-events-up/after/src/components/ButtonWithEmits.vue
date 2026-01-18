@@ -1,4 +1,5 @@
 <template>
+  <!-- 傳遞事件和事件參數 -->
   <button @click="$emit('customClick', '点击了按钮')">按钮</button>
 </template>
 <script>

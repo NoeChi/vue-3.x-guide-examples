@@ -1,7 +1,10 @@
 <template>
   <main>
     <div>
+      <!-- :子組件＝父組件的函式 -->
       <ButtonWithProps :onclick="handleClick" />
+      <!-- @子組件＝父組件的函式 -->
+      <!-- 監聽事件，取得傳遞的參數，調用父組件的函式 -->
       <ButtonWithEmits @customClick="handleClick" />
     </div>
   </main>

@@ -1,5 +1,9 @@
 <template>
+  <!-- 子組件的onclick接收父組件的handleClick函式 -->
+  <!-- onclick('点击了按钮') = handleClick('点击了按钮') -->
   <button @click="onclick && onclick('点击了按钮')">按钮</button>
+  <!-- onclick && onclick('点击了按钮')是 Short-circuit evaluation -->
+  <!-- 等於 if (onclick) { onclick('点击了按钮') } -->
 </template>
 <script>
 export default {
