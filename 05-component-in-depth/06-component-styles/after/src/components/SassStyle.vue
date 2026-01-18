@@ -6,6 +6,7 @@
 <script>
 export default {};
 </script>
+<!-- 使用 sass 预处理器，并且使用 scoped 样式 -->
 <style lang="scss" scoped>
 div {
   p {

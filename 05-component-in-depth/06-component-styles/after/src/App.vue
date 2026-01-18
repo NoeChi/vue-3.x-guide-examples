@@ -10,6 +10,7 @@
 </template>
 
 <script>
+// 引用到全局样式
 import "./style.css";
 import ScopedStyle from "./components/ScopedStyle.vue";
 import SassStyle from "./components/SassStyle.vue";

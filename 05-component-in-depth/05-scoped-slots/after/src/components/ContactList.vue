@@ -1,7 +1,7 @@
 <template>
   <ul>
     <li v-for="contact in contacts" :key="contact.id">
-      <slot />
+      <slot :contact="contact" />
     </li>
   </ul>
 </template>

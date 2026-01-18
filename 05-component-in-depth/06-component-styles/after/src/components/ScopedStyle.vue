@@ -4,6 +4,7 @@
 <script>
 export default {};
 </script>
+<!-- 使用 scoped 樣式，樣式只作用於當前組件 -->
 <style scoped>
 p {
   background-color: hsl(260deg, 100%, 60%, 0.7);
