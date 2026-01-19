@@ -1,4 +1,5 @@
 <template>
+  <!-- ref = 自定義的引用名稱 -->
   <input type="text" v-model="inputText" ref="inputControl" />
 </template>
 
@@ -9,6 +10,7 @@ export default {
       inputText: "",
     };
   },
+  // 組件掛載完成後自動獲取焦點
   mounted() {
     this.$refs.inputControl.focus();
   },
