@@ -63,6 +63,7 @@ main {
   background-color: hsl(280deg, 100%, 60%);
   box-shadow: 0 0 24px hsl(280deg, 100%, 70%, 0.5);
   /* transform: rotate(v-bind(degree + "deg")); */
+  /* v-bind以函數形式 */
   transform: rotate(v-bind(degreeStr));
 }
 

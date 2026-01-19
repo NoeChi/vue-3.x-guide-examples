@@ -1,6 +1,6 @@
 <template>
-  <span class="text"
-    ><slot />
+  <span class="text">
+    <slot />
     <a href="#">子组件中的其它元素（非根元素）</a>
   </span>
 </template>

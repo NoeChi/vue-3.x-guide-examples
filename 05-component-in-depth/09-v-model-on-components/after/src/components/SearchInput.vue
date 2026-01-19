@@ -10,7 +10,8 @@
 </template>
 <script>
 export default {
-  props: ["modelValue"],
+// modelValue 作為 prop 傳入，是固定的必須這樣寫
+  props: ["modelValue"], 
   emits: ["update:modelValue"],
 };
 </script>
