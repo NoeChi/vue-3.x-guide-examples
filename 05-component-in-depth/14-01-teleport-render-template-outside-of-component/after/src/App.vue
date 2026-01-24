@@ -1,3 +1,4 @@
+<!-- 组件传送：在其它 DOM 元素挂载组件 (Teleport) -->
 <template>
   <main>
     <div class="container">
@@ -54,7 +55,7 @@ button {
   border-radius: 4px;
   color: white;
 }
-
+/* 相對定位 */
 .container {
   position: relative;
   /* border: 1px solid hsl(280deg, 100%, 50%); */

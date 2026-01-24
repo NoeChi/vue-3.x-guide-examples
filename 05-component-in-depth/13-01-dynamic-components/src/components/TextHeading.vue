@@ -1,11 +1,15 @@
 <template>
+  <!-- component :is="heading"會變成<h1>, <h2>... -->
+  <!-- heading是什麼就會變成什麼標題 -->
   <Component :is="heading"><slot></slot></Component>
 </template>
 
 <script>
 export default {
+  // 從父組件取的level的參數
   props: ["level"],
   computed: {
+    // 回傳h1, h2, h3...
     heading() {
       return `h${this.level}`;
     },

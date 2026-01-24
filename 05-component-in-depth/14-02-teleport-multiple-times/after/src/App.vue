@@ -1,3 +1,4 @@
+<!-- 组件传送：多次传送组件 -->
 <template>
   <main>
     <div class="container">

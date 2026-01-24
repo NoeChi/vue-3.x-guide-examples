@@ -1,4 +1,5 @@
 <template>
+  <!-- 增加Teleport，定位變成相較於body -->
   <Teleport to="body">
     <div v-if="show" class="alertBox">
       <div class="closeIcon" @click="show = false">X</div>
@@ -24,7 +25,7 @@ export default {
   border: 1px solid hsl(280, 100%, 50%);
   border-radius: 8px;
   padding: 24px;
-
+/* 絕對定位 */
   position: absolute;
   right: 12px;
   bottom: 12px;

@@ -1,6 +1,8 @@
+<!-- 使用动态组件渲染不同的 Vue 组件 -->
 <template>
   <main>
     <div>
+      <!-- 使用component動態切換表單 -->
       <Component :is="currentForm" />
       <div class="buttons">
         <button

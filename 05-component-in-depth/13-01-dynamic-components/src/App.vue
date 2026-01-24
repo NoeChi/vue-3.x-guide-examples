@@ -1,3 +1,4 @@
+<!-- 使用動態組件渲染不同的HTML標籤 -->
 <template>
   <main>
     <div>

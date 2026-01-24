@@ -1,3 +1,4 @@
+<!-- 解决动态组件数据丢失问题：<KeepAlive></KeepAlive> -->
 <template>
   <main>
     <div>

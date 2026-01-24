@@ -1,4 +1,5 @@
 <template>
+  <!-- 塞進 #messages 元素中 -->
   <Teleport to="#messages">
     <div v-if="show" class="alertBox">
       <div class="closeIcon" @click="show = false">X</div>
