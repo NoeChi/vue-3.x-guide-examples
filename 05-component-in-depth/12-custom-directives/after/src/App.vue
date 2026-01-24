@@ -1,3 +1,4 @@
+<!-- 自定义指令-增强的 HTML 功能 -->
 <template>
   <main>
     <div>

@@ -1,3 +1,4 @@
+<!-- Refs：获取 DOM 和子组件实例 -->
 <template>
   <main>
     <div>

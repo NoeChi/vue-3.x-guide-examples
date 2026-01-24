@@ -1,3 +1,4 @@
+<!-- 在 scoped 的 style 中修改子组件的样式 -->
 <template>
   <main>
     <div>

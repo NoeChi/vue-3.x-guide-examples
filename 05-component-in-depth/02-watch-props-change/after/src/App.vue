@@ -1,3 +1,4 @@
+<!-- 使用 watch 监听属性 props 变化 -->
 <template>
   <main>
     <div class="container">

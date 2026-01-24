@@ -1,3 +1,4 @@
+<!-- Provide/Inject：给深层组件中传递属性 -->
 <template>
   <main>
     <div>

@@ -1,3 +1,4 @@
+<!-- 在样式中绑定响应性数据 -->
 <template>
   <main>
     <div class="box"></div>

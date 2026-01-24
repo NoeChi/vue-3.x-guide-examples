@@ -1,3 +1,4 @@
+<!-- 让组件支持 v-model 指令 -->
 <template>
   <main>
     <div>

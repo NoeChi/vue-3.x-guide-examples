@@ -1,3 +1,4 @@
+<!-- 响应性 props 和组件刷新 -->
 <template>
   <main>
     <div class="container">

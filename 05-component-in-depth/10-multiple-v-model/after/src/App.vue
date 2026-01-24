@@ -1,3 +1,4 @@
+<!-- 使用多个 v-model 指令 -->
 <template>
   <main>
     <div>

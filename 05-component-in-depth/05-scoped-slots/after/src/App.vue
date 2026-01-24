@@ -1,3 +1,4 @@
+<!-- 在传递的 slot 模板中，访问子组件的属性 -->
 <template>
   <main>
     <div>
